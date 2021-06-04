@@ -1,0 +1,108 @@
+body{
+    margin: 0 auto;
+    background-color: whitesmoke;
+    position: absolute;
+    
+  }
+  
+  #calculator{
+      padding: 89px;
+  }
+  
+  
+  label{
+    font-size: 19px;
+    color: #666;
+      
+  }
+  
+  #form{
+    display: block;
+    align-items:left;
+    justify-items: left;
+    margin-right: 500px;
+    margin-left: auto;
+    font-size: 18px;
+    
+  }
+  ::placeholder {
+    color:red;
+    font-size: 15px;
+  }
+  
+  input[type=text] {
+    display: block;
+    color: red;
+    width: 30em;
+    padding: 9px;
+    margin: 5px;
+  }
+  
+  #btn{
+    color: white;
+    background: red;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid red;
+    margin: 30px;
+    box-shadow: 3px 3px 9px black;
+  }
+  
+  #btn:hover{
+    padding: 9px;
+    background: #6732;
+    color: #232323;
+  }
+  
+  #results{
+    
+    padding: 16px;
+    background-color: white;
+    border: 1px solid red;
+    box-shadow: 3px 3px 9px #232323;
+    position: relative;
+    left: 600px;
+    right: 80px !important;
+    width: 80%;
+    bottom: 500px;
+    
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    
+    h1{
+      font-size: 28px;
+    }
+    
+    input[type=text]{
+      font-size: 14px;
+      width: 15em;
+      padding: 3px;
+    }
+    #calculator {
+      width: 20%;
+      padding: 40px;
+      
+    }
+    
+    #results{
+      position: relative;
+      left: 10px;
+      top: 20px;
+      background-color: red;
+      justify-content: center;
+      align-items: left;
+      align-self: left;
+      margin-left: 0 auto;
+      min-width: 300px !important;
+      
+      
+      
+      
+    }
+  }

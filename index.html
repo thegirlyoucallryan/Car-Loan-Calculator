@@ -1,0 +1,35 @@
+
+<head>
+
+    <link rel='stylesheet' href=style.css>
+    <script src="index.js"></script>
+
+</head>
+
+
+<div id='calculator'>
+    <div='form-calculator'>
+    <form id='form' action=''>
+      <h1> Car Loan Calculator</h1>
+      <label for='price'>Vehicle Price</label>
+      <input type='text' id="price" placeholder='vehicle price'>            </input><br>
+     <label for='downpmt'>Down Payment</label>
+      <input type='text' id="downpmt" placeholder='down payment'> 
+    </input><br>
+  <label for='trade-in'>Trade in Value</label>
+      <input type='text' id="trade-in" placeholder='trade-in'> 
+    </input><br>
+  <label for='interest-rate'>Interest Rate</label>
+      <input type='text' id="interest-rate" placeholder='interest' value='3.25'> 
+  
+    </input><br>
+  <label for='loan-term'>Loan Term</label>
+      <input type='text' id="loan-term" placeholder='ex. 60 months'> 
+    </input><br>
+  
+  <button id=btn onclick='calculate();' value=calculate>Calculate</button>
+  
+  </form>
+    <div>
+      <div class='hidden' id='results'></div>
+  </div>
